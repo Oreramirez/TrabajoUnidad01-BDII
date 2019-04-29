@@ -3,3 +3,9 @@ C:\Users\anton\documents\visual studio 2017\Projects\SlnRestaurante2019\Restaura
 C:\Users\anton\documents\visual studio 2017\Projects\SlnRestaurante2019\Restaurante.Dominio\obj\Debug\Restaurante.Dominio.csprojResolveAssemblyReference.cache
 C:\Users\anton\documents\visual studio 2017\Projects\SlnRestaurante2019\Restaurante.Dominio\obj\Debug\Restaurante.Dominio.dll
 C:\Users\anton\documents\visual studio 2017\Projects\SlnRestaurante2019\Restaurante.Dominio\obj\Debug\Restaurante.Dominio.pdb
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Dominio\bin\Debug\Restaurante.Dominio.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Dominio\bin\Debug\Restaurante.Dominio.pdb
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Dominio\obj\Debug\Restaurante.Dominio.csprojAssemblyReference.cache
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Dominio\obj\Debug\Restaurante.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Dominio\obj\Debug\Restaurante.Dominio.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Dominio\obj\Debug\Restaurante.Dominio.pdb

@@ -18,3 +18,25 @@ C:\Users\anton\documents\visual studio 2017\Projects\SlnRestaurante2019\Restaura
 C:\Users\anton\documents\visual studio 2017\Projects\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.pdb
 C:\Users\anton\documents\visual studio 2017\Projects\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.Migrations.primeraversion.resources
 C:\Users\anton\documents\visual studio 2017\Projects\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.csproj.GenerateResource.Cache
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\Restaurante.Infraestructura.Datos.dll.config
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\Restaurante.Infraestructura.Datos.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\Restaurante.Infraestructura.Datos.pdb
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\EntityFramework.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\Restaurante.Dominio.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\System.Data.SqlServerCe.Entity.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\WebActivator.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\Restaurante.Dominio.pdb
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\EntityFramework.xml
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\bin\Debug\WebActivator.pdb
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.csprojAssemblyReference.cache
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.Migrations.primeraversion.resources
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.csproj.GenerateResource.cache
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.csproj.CoreCompileInputs.cache
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.csproj.CopyComplete
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.dll
+C:\Users\DEPIS01\Documents\GitHub\TrabajoUnidad01-BDII\TrabajoUnidad\SlnRestaurante2019\Restaurante.Infraestructura.Datos\obj\Debug\Restaurante.Infraestructura.Datos.pdb
