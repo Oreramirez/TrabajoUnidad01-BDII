@@ -46,12 +46,7 @@
 		\includegraphics[width=8cm]{./Imagenes/img7}
 		\end{center}
 		\end{figure}
-	\end{enumerate}
-
-	\item Escribiendo consultas con el operador UNPIVOT
-	\begin{enumerate}[a)]
-	\item Paso 1: Crear y consultar la vista Sale.PivotCustGroups.\\
-		-  Escribir la siguiente consulta para crear una vista llamada Sales.PivotCustGroups.\\
+	\item Paso 8: una vez configurado podremos comprobar que ya podemos interactuar con la base de datos a través Entity Framework.
 		\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=8cm]{./Imagenes/img8}
@@ -63,52 +58,65 @@
 		\includegraphics[width=5cm]{./Imagenes/img9}
 		\end{center}
 		\end{figure}
-	\item Paso 2: Escriba una instruccion SELECT para recuperar una fila para cada pais y grupo de cliente.\\
-		-  En el panel de consulta escribir la siguiente consulta.\\
+	\item Paso 9: Demostraremos el de entity framework con un Login. Para lograr esto liste los datos de Tarjeta que se encuentran en la base de datos en un DataGridView (Por motivos de 		Seguridad este DataGridView no será visible para el Usuario) con el siguiente código:
 		\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=7cm]{./Imagenes/img10}
 		\end{center}
 		\end{figure}
-	\item Paso 3: Eliminar las vistas creadas.
+	\item Paso 10: Demostraremos el de entity framework con un Login. Para lograr esto liste los datos de Tarjeta que se encuentran en la base de datos en un DataGridView (Por motivos 			de Seguridad este DataGridView no será visible para el Usuario) con el siguiente código:
 		\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=6cm]{./Imagenes/img11}
 		\end{center}
 		\end{figure}
-	\end{enumerate}
-
-
-
-	\item Escribiendo consultas con las clausulas GROUPING SETS, CUBE, and ROLLUP.
-	\begin{enumerate}[a)]
-	\item Paso 1: Escriba una instruccion SELECT que use LA SUBCLAUSULA GROUPING SETS para devolver el número de
-Clientes para diferentes conjuntos de agrupación.\\
-		-  Escribir la siguiente consulta y ejecutar. 
+	\item Paso 11: Una vez obtenidos los datos podremos confirmar si el usuario existe o no en la base de datos:
+		Codigo:
 		\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=7cm]{./Imagenes/img12}
 		\end{center}
 		\end{figure}
-	\item Paso 2: Escriba una instruccion SELECT que use la subclausula CUBE para recuperar Grouping sets basados en valores de ventas anuales, mensuales y diarios.\\
-		-  Escribir la siguiente consulta. 
+	\item Paso 12: Se muestra el formulario principal del cajero
 		\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=7cm]{./Imagenes/img13}
 		\end{center}
 		\end{figure}
-	\item Paso 3: Escriba la misma instruccion SELECT usando la subclausula ROLLUP.\\
-		-  Escribir la siguiente consulta. 
+	\item Paso 13: Si existe el formulario
 		\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=7cm]{./Imagenes/img14}
 		\end{center}
 		\end{figure}
-	\item Paso 4: Analizar el valor total de ventas por año y mes.\\
-		-  Escribir la siguiente consulta y ejecutar. 
+	\item Paso 14: Si en caso que no existe
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img15}
+		\includegraphics[width=7cm]{./Imagenes/img15}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img16}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img17}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img18}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img19}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img20}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img21}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img22}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img23}\\
+
+		\includegraphics[width=7cm]{./Imagenes/img24}\\
+		\end{center}
+		\end{figure}
+	\item Paso 14: Y así hemos demostradro la funcionalidad con un ORM. Ha quedado demostrado la simplicidad del código que hemos usado.
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=7cm]{./Imagenes/img25}
 		\end{center}
 		\end{figure}
 	\end{enumerate}
@@ -118,123 +126,17 @@ Clientes para diferentes conjuntos de agrupación.\\
 \begin{enumerate}[1.]
 	\item Escribiendo consultas con el operador PIVOT
 	\begin{enumerate}[a)]
-	\item Paso 1: Escribir una sentencia SELECT para recuperar el numero de clientes para un grupo especifico de clientes.\\
-		-  Abrir el SQL Server Management Studio y conectar a la basa de datos (local) usando Windows.\\
-		-  Usar la base de datos TSQL\\
-		-  Ejecutar el siguiente codigo para crear una vista\\
+	\item Analisis de desarrollo del Sistema
+		-  Caso de uso del Sistema\\
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=8cm]{./Imagenes/img1}
+		\includegraphics[width=8cm]{./Imagenes/cus}
 		\end{center}
 		\end{figure}
-		-  En el panel de consulta, escribir la siguiente consulta.
+		-  Diagrama de Entidad Relacion
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img16}
-		\end{center}
-		\end{figure}
-		-  Luego modificamos el codigo, aplicando el operador PIVOT.
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img2}
-		\end{center}
-		\end{figure}
-	\item Paso 2: Especifique el elemento de agrupacion para el operador PIVOT. \\
-		-  Escribir la siguiente consulta para poder modificar la vista creada anteriormente, añadiendo 2 columnas adicionales. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img3}
-		\end{center}
-		\end{figure}
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img4}
-		\end{center}
-		\end{figure}
-		-  Modificar la consulta para incluir columnas adicionales desde la vista. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img5}
-		\end{center}
-		\end{figure}
-	\item Paso 3: Use una expresion de tabla común (CTE) para especificar el elemnto de agrupacion para el operador PIVOT.\\
-		-  Escribir la siguiente consulta y ejecutar. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img6}
-		\end{center}
-		\end{figure}
-	\item Paso 4: Escribe una instruccion SELECT para recuperar el monto total de ventas para cada cliente y categoria de producto.\\
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=8cm]{./Imagenes/img7}
-		\end{center}
-		\end{figure}
-	\end{enumerate}
-
-	\item Escribiendo consultas con el operador UNPIVOT
-	\begin{enumerate}[a)]
-	\item Paso 1: Crear y consultar la vista Sale.PivotCustGroups.\\
-		-  Escribir la siguiente consulta para crear una vista llamada Sales.PivotCustGroups.\\
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=8cm]{./Imagenes/img8}
-		\end{center}
-		\end{figure}
-		-  Despues escribrir la siguiente consulta.
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=5cm]{./Imagenes/img9}
-		\end{center}
-		\end{figure}
-	\item Paso 2: Escriba una instruccion SELECT para recuperar una fila para cada pais y grupo de cliente.\\
-		-  En el panel de consulta escribir la siguiente consulta.\\
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img10}
-		\end{center}
-		\end{figure}
-	\item Paso 3: Eliminar las vistas creadas.
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img11}
-		\end{center}
-		\end{figure}
-	\end{enumerate}
-
-
-
-	\item Escribiendo consultas con las clausulas GROUPING SETS, CUBE, and ROLLUP.
-	\begin{enumerate}[a)]
-	\item Paso 1: Escriba una instruccion SELECT que use LA SUBCLAUSULA GROUPING SETS para devolver el número de
-Clientes para diferentes conjuntos de agrupación.\\
-		-  Escribir la siguiente consulta y ejecutar. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img12}
-		\end{center}
-		\end{figure}
-	\item Paso 2: Escriba una instruccion SELECT que use la subclausula CUBE para recuperar Grouping sets basados en valores de ventas anuales, mensuales y diarios.\\
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img13}
-		\end{center}
-		\end{figure}
-	\item Paso 3: Escriba la misma instruccion SELECT usando la subclausula ROLLUP.\\
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img14}
-		\end{center}
-		\end{figure}
-	\item Paso 4: Analizar el valor total de ventas por año y mes.\\
-		-  Escribir la siguiente consulta y ejecutar. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img15}
+		\includegraphics[width=6cm]{./Imagenes/img1}
 		\end{center}
 		\end{figure}
 	\end{enumerate}
@@ -243,125 +145,12 @@ Clientes para diferentes conjuntos de agrupación.\\
 	
 \subsection{Diseño}
 \begin{enumerate}[1.]
-	\item Escribiendo consultas con el operador PIVOT
+	\item Diagrama de Clases, Modelo Entidad Relación
 	\begin{enumerate}[a)]
-	\item Paso 1: Escribir una sentencia SELECT para recuperar el numero de clientes para un grupo especifico de clientes.\\
-		-  Abrir el SQL Server Management Studio y conectar a la basa de datos (local) usando Windows.\\
-		-  Usar la base de datos TSQL\\
-		-  Ejecutar el siguiente codigo para crear una vista\\
+	\item  El diagrama de entidad Relacion fue desarrollado con el fin de que la base de datos tenga una estrutura relacional optima
 		\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=8cm]{./Imagenes/img1}
-		\end{center}
-		\end{figure}
-		-  En el panel de consulta, escribir la siguiente consulta.
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img16}
-		\end{center}
-		\end{figure}
-		-  Luego modificamos el codigo, aplicando el operador PIVOT.
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img2}
-		\end{center}
-		\end{figure}
-	\item Paso 2: Especifique el elemento de agrupacion para el operador PIVOT. \\
-		-  Escribir la siguiente consulta para poder modificar la vista creada anteriormente, añadiendo 2 columnas adicionales. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img3}
-		\end{center}
-		\end{figure}
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img4}
-		\end{center}
-		\end{figure}
-		-  Modificar la consulta para incluir columnas adicionales desde la vista. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img5}
-		\end{center}
-		\end{figure}
-	\item Paso 3: Use una expresion de tabla común (CTE) para especificar el elemnto de agrupacion para el operador PIVOT.\\
-		-  Escribir la siguiente consulta y ejecutar. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img6}
-		\end{center}
-		\end{figure}
-	\item Paso 4: Escribe una instruccion SELECT para recuperar el monto total de ventas para cada cliente y categoria de producto.\\
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=8cm]{./Imagenes/img7}
-		\end{center}
-		\end{figure}
-	\end{enumerate}
-
-	\item Escribiendo consultas con el operador UNPIVOT
-	\begin{enumerate}[a)]
-	\item Paso 1: Crear y consultar la vista Sale.PivotCustGroups.\\
-		-  Escribir la siguiente consulta para crear una vista llamada Sales.PivotCustGroups.\\
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=8cm]{./Imagenes/img8}
-		\end{center}
-		\end{figure}
-		-  Despues escribrir la siguiente consulta.
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=5cm]{./Imagenes/img9}
-		\end{center}
-		\end{figure}
-	\item Paso 2: Escriba una instruccion SELECT para recuperar una fila para cada pais y grupo de cliente.\\
-		-  En el panel de consulta escribir la siguiente consulta.\\
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img10}
-		\end{center}
-		\end{figure}
-	\item Paso 3: Eliminar las vistas creadas.
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img11}
-		\end{center}
-		\end{figure}
-	\end{enumerate}
-
-
-
-	\item Escribiendo consultas con las clausulas GROUPING SETS, CUBE, and ROLLUP.
-	\begin{enumerate}[a)]
-	\item Paso 1: Escriba una instruccion SELECT que use LA SUBCLAUSULA GROUPING SETS para devolver el número de
-Clientes para diferentes conjuntos de agrupación.\\
-		-  Escribir la siguiente consulta y ejecutar. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img12}
-		\end{center}
-		\end{figure}
-	\item Paso 2: Escriba una instruccion SELECT que use la subclausula CUBE para recuperar Grouping sets basados en valores de ventas anuales, mensuales y diarios.\\
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img13}
-		\end{center}
-		\end{figure}
-	\item Paso 3: Escriba la misma instruccion SELECT usando la subclausula ROLLUP.\\
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img14}
-		\end{center}
-		\end{figure}
-	\item Paso 4: Analizar el valor total de ventas por año y mes.\\
-		-  Escribir la siguiente consulta y ejecutar. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img15}
 		\end{center}
 		\end{figure}
 	\end{enumerate}
@@ -370,60 +159,49 @@ Clientes para diferentes conjuntos de agrupación.\\
 
 \subsection{Pruebas}
 \begin{enumerate}[1.]
-	\item Escribiendo consultas con el operador PIVOT
+	\item Pruebas Unitarias
 	\begin{enumerate}[a)]
-	\item Paso 1: Escribir una sentencia SELECT para recuperar el numero de clientes para un grupo especifico de clientes.\\
-		-  Abrir el SQL Server Management Studio y conectar a la basa de datos (local) usando Windows.\\
-		-  Usar la base de datos TSQL\\
-		-  Ejecutar el siguiente codigo para crear una vista\\
+	\item Paso 1: Pruebas unitarias: haremos pruebas unitarias para los métodos deposito, retiro.\\
+		-  Agregaremos un test de pruebas unitarias
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=8cm]{./Imagenes/img1}
+		\includegraphics[width=8cm]{./Imagenes/imp1}
 		\end{center}
 		\end{figure}
-		-  En el panel de consulta, escribir la siguiente consulta.
+	\item Paso 2: Seguidamente el nuevo y tipo de proyecto.
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img16}
+		\includegraphics[width=6cm]{./Imagenes/imp2}
 		\end{center}
 		\end{figure}
-		-  Luego modificamos el codigo, aplicando el operador PIVOT.
+	\item Paso 3: Luego referenciaremos el proyecto principal
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img2}
+		\includegraphics[width=6cm]{./Imagenes/imp3}
 		\end{center}
 		\end{figure}
-	\item Paso 2: Especifique el elemento de agrupacion para el operador PIVOT. \\
-		-  Escribir la siguiente consulta para poder modificar la vista creada anteriormente, añadiendo 2 columnas adicionales. 
+	\item Paso 4: Luego probaremos los métodos :
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img3}
+		\includegraphics[width=7cm]{./Imagenes/imp4}
 		\end{center}
 		\end{figure}
-		-  Escribir la siguiente consulta. 
+	\item Paso 5: Esperamos mientras carga la pruba que se va desarrollar
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=6cm]{./Imagenes/img4}
+		\includegraphics[width=6cm]{./Imagenes/imp5}
 		\end{center}
 		\end{figure}
-		-  Modificar la consulta para incluir columnas adicionales desde la vista. 
+	\item Paso 6: Retiros
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img5}
+		\includegraphics[width=7cm]{./Imagenes/imp6}
 		\end{center}
 		\end{figure}
-	\item Paso 3: Use una expresion de tabla común (CTE) para especificar el elemnto de agrupacion para el operador PIVOT.\\
-		-  Escribir la siguiente consulta y ejecutar. 
+	\item Paso 7: Finalmente aplicamos el codigo que se ejecurtar
 		\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=7cm]{./Imagenes/img6}
-		\end{center}
-		\end{figure}
-	\item Paso 4: Escribe una instruccion SELECT para recuperar el monto total de ventas para cada cliente y categoria de producto.\\
-		-  Escribir la siguiente consulta. 
-		\begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=8cm]{./Imagenes/img7}
+		\includegraphics[width=7cm]{./Imagenes/imp7}
 		\end{center}
 		\end{figure}
 	\end{enumerate}
